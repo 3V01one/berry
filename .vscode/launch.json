@@ -5,6 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "args": [
+        "free${selectedText}"
+      ],
+      "name": "Gulp free${selectedText}",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
       "name": "Attach",
       "port": 9229,
       "request": "attach",
